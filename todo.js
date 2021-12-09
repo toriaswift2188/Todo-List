@@ -1,6 +1,6 @@
 import Minus from './minus';
 import Plus from './plus';
-function Todo({todo,index,remove}){
+const Todo({todo,index,remove}){
   function handle(){
     console.log('Ping:',index);
     remove(index);
